@@ -10,7 +10,14 @@
 
 // // 再宣言は不可能
 
-const val3 = "const変数";
-console.log(val3);
+// const val3 = "const変数";
+// console.log(val3);
 
 // 上書き不可能
+// オブジェクトや配列は変更可能
+const val4 = {
+  name: "a",
+  age: 1
+};
+val4.name = "b";
+console.log(val4);
