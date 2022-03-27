@@ -15,9 +15,14 @@
 
 // 上書き不可能
 // オブジェクトや配列は変更可能
-const val4 = {
-  name: "a",
-  age: 1
-};
-val4.name = "b";
-console.log(val4);
+// const val4 = {
+//   name: "a",
+//   age: 1
+// };
+// val4.name = "b";
+// console.log(val4);
+
+const val5 = ["dog", "cat"];
+val5[0] = "bird";
+val5.push("monkey");
+console.log(val5);
