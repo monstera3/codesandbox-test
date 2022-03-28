@@ -28,7 +28,16 @@
 // console.log(val5);
 
 // アロー関数
-const func2 = (str) => {
-  return str;
+// const func2 = (str) => {
+//   return str;
+// };
+// console.log(func2("2"));
+
+// 分割代入
+const myProfile = {
+  name: "natsu",
+  age: 25
 };
-console.log(func2("2"));
+
+const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`;
+console.log(message1);
