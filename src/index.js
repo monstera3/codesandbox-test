@@ -22,7 +22,13 @@
 // val4.name = "b";
 // console.log(val4);
 
-const val5 = ["dog", "cat"];
-val5[0] = "bird";
-val5.push("monkey");
-console.log(val5);
+// const val5 = ["dog", "cat"];
+// val5[0] = "bird";
+// val5.push("monkey");
+// console.log(val5);
+
+// アロー関数
+const func2 = (str) => {
+  return str;
+};
+console.log(func2("2"));
