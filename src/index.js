@@ -34,14 +34,25 @@
 // console.log(func2("2"));
 
 // 分割代入
-const myProfile = {
-  name: "natsu",
-  age: 25
+// const myProfile = {
+//   name: "natsu",
+//   age: 25
+// };
+
+// const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`;
+// console.log(message1);
+
+// const { name, age } = myProfile;
+// const message2 = `名前は${name}です。年齢は${age}歳です。`;
+// console.log(message2);
+
+// 三項演算子
+const num = "1300";
+
+// const formattedNum = typeof num === 'number' ? num.toLocaleString() : `数値を入力してください`；
+// console.log(formattedNum);
+
+const checkSum = (num1, num2) => {
+  return num1 + num2 > 100 ? "１００を超えています" : "許容範囲内です";
 };
-
-const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`;
-console.log(message1);
-
-const { name, age } = myProfile;
-const message2 = `名前は${name}です。年齢は${age}歳です。`;
-console.log(message2);
+console.log(checkSum(50, 80));
